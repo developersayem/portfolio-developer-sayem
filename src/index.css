@@ -1,0 +1,29 @@
+@import url("https://fonts.cdnfonts.com/css/gadems");
+/* font-family: 'Liberation Mono', sans-serif; */
+@import url("https://fonts.cdnfonts.com/css/liberation-mono");
+@import url("https://fonts.cdnfonts.com/css/maria-2");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: maria, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  /* place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+}
